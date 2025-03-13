@@ -45,7 +45,7 @@
             bindings = <
 &kp GRAVE   &kp N1            &kp N2     &kp N3        &kp N4            &kp N5         &kp UP_ARROW     &kp N6       &kp N7             &kp N8     &kp N9     &kp N0             &kp BACKSPACE
 &kp TAB     &kp Q             &kp W      &kp F         &kp P             &kp B          &kp DOWN_ARROW   &kp J        &kp L              &kp U      &kp Y      &kp SEMICOLON      &kp BSLH
-&kp ESCAPE  &kp A             &kp R      &kp S         &kp T             &kp G          &kp LEFT_ARROW   &kp H        &kp N              &kp E      &kp I      &kp O              &kp APOS
+&kp ESCAPE  &kp A             &kp R      &kp S         &kp T             &kp G          &kp LEFT_ARROW   &kp K        &kp N              &kp E      &kp I      &kp O              &kp APOS
 &kp LSHFT   &kp Z             &kp X      &kp C         &kp D             &kp V          &kp RIGHT_ARROW  &kp M        &kp H              &kp COMMA  &kp DOT    &kp FSLH           &mt RIGHT_SHIFT ENTER
 &kp C_MUTE  &kp LEFT_BRACKET  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 SPACE    &kp ENTER        &lt 1 SPACE  &kp RIGHT_COMMAND  &kp MINUS  &kp EQUAL  &kp RIGHT_BRACKET
             >;
