@@ -16,13 +16,13 @@
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
 &msc {
-    acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
+    acceleration-exponent = <0>;      // 0
+    time-to-max-speed-ms = <300>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <500>;
+    time-to-max-speed-ms = <300>;
     acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
@@ -38,37 +38,37 @@
 
     behaviors {
     };
-    
+
     combos {
         compatible = "zmk,combos";
 
         nolayer-down {
             bindings = <&kp DOWN>;
-            key-positions = <31 32>;
+            key-positions = <34 35>;
             layers = <0>;
         };
 
         nolayer-uparrow {
             bindings = <&kp UP>;
-            key-positions = <19 20>;
+            key-positions = <21 22>;
             layers = <0>;
         };
 
         nolayer-left {
             bindings = <&kp LEFT>;
-            key-positions = <30 31>;
+            key-positions = <34 33>;
             layers = <0>;
         };
 
         nolayer-right {
             bindings = <&kp RIGHT>;
-            key-positions = <32 33>;
+            key-positions = <35 36>;
             layers = <0>;
         };
 
         fast-spotlight {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <54 53>;
+            key-positions = <60 56>;
             layers = <0>;
         };
 
@@ -80,7 +80,7 @@
 
         fat-enter {
             bindings = <&kp ENTER>;
-            key-positions = <48 49>;
+            key-positions = <50 51>;
         };
     };
 
