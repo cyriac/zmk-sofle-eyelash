@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Lower}
   - $$mdi:apple-keyboard-command$$
   - {t: '-', s: _}
-  - +
+  - {t: '=', s: +}
   - {t: ']', s: '}'}
   Lower:
   - {t: '`', s: '~'}
