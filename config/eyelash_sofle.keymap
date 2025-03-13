@@ -38,6 +38,51 @@
 
     behaviors {
     };
+    
+    combos {
+        compatible = "zmk,combos";
+
+        nolayer-down {
+            bindings = <&kp DOWN>;
+            key-positions = <31 32>;
+            layers = <0>;
+        };
+
+        nolayer-uparrow {
+            bindings = <&kp UP>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        nolayer-left {
+            bindings = <&kp LEFT>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        nolayer-right {
+            bindings = <&kp RIGHT>;
+            key-positions = <32 33>;
+            layers = <0>;
+        };
+
+        fast-spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <54 53>;
+            layers = <0>;
+        };
+
+        legacy-escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 0>;
+            layers = <0>;
+        };
+
+        fat-enter {
+            bindings = <&kp ENTER>;
+            key-positions = <48 49>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -81,14 +126,10 @@
             label = "Raise";
         };
 
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
+        extra_1 { status = "reserved"; };
+
+        extra_2 { status = "reserved"; };
+
+        extra_3 { status = "reserved"; };
     };
 };
